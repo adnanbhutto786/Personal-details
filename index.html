@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personl Details Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+<h2>Personal Details</h2>
+<form action="Thankyou.html" method="get">
+<label for="name">Full Name:</label>
+<input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+<label for="fname">Father Name:</label>
+<input type="text" name="fname" id="fname" placeholder="Enter Your Father Name" required>
+<label for="email">Email:</label>
+<input type="email" name="email" id="email" placeholder="name@example.com" required>
+<label for="phone">Phone Number:</label>
+<input type="tel" name="phone" id="phone" placeholder="+92316-0243208">
+<label for="address">Address</label>
+<textarea name="address" id="address" cols="30" rows="10" placeholder="required"></textarea>
+<label for="city">Select Your City:</label>
+<select name="city" id="city" required>
+  <option value="Select your city">Select your city</option>
+  <option value="Karachi">Karachi</option>
+  <option value="Lahore">Lahore</option>
+  <option value="Peshwer">Peshwer</option>
+  <option value="New York">New York</option>
+</select>
+<label for="dob">Date of brith:</label>
+<input type="date" name="dob" id="dob" required>
+<label for="occupation">Occupation:</label>
+<input type="text" name="occupation" id="occupation" required>
+<label for="hobbies">Hobbies/Interests:</label>
+<input type="text" name="hobbies" id="hobbies">
+
+<label for="bio">Bio:</label>
+<textarea name="bio" id="bio" cols="30" rows="10" placeholder="Tell us something about yourself..." required></textarea>
+
+<label for="profile-picture">Upload Profile Picture</label>
+<input type="file" name="profile-picture" id="profile-picture">
+<button type="submit" onclick="confirm('do you want submit the form')">Submit</button>
+</div>
+
+
+</form>
+  
+</body>
+</html>
