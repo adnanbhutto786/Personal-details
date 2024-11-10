@@ -1,1 +1,1 @@
-https://app.netlify.com/sites/adnanbhutto786/configuration/general
+https://adnanbhutto786.netlify.app/
